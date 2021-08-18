@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  height: 100vh;
+  background-color: darkslategrey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input-area {
+  padding: 10px;
+  font-size: 0;
+}
+
+.input {
+  padding: 5px;
+  outline: none;
+  height: 30px;
+}
+
+.input-btn {
+  outline: none;
+  height: 30px;
+  background: none;
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid white;
+  border-left: none;
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  background-color: rgba(7, 163, 243, 0.4);
+  transition: 0.2s;
+}
+
+button[disabled] {
+  color: red;
+}
+
+.tags-container {
+  width: 450px;
+  border: 2px solid white;
+  color: gainsboro;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 4px 10px 4px 10px;
+  margin: 5px;
+  border-radius: 2px;
+  background-color: greenyellow;
+  color: darkslategrey;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-text {
+  color: black;
+}
+
+.close-btn {
+  font-weight: bold;
+  font-size: 20px;
+  color: darkslategrey;
+  margin-left: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
